@@ -1,9 +1,27 @@
 {
   "name": "tallow-theme",
   "displayName": "Tallow",
-  "description": "A minimal, warm, distraction-free theme. Two accents: faded italic comments and muted slate strings. Everything else is plain.",
+  "description": "A minimal, warm, distraction-free theme with dark and light variants.",
   "version": "0.0.1",
-  "publisher": "tallow",
+  "publisher": "YOUR-PUBLISHER-ID",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR-GITHUB-USERNAME/tallow-theme"
+  },
+  "keywords": [
+    "theme",
+    "minimal",
+    "dark",
+    "light",
+    "warm",
+    "distraction-free"
+  ],
+  "galleryBanner": {
+    "color": "#1d1b19",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.75.0"
   },
