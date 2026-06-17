@@ -3,11 +3,11 @@
   "displayName": "Tallow",
   "description": "A minimal, warm, distraction-free theme with dark and light variants.",
   "version": "0.0.1",
-  "publisher": "jdb222",
+  "publisher": "jdberlinski",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR-GITHUB-USERNAME/tallow-theme"
+    "url": "https://github.com/jdberlinski/tallow-theme"
   },
   "keywords": [
     "theme",
