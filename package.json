@@ -1,9 +1,9 @@
 {
-  "name": "quiet-theme",
-  "displayName": "Quiet",
+  "name": "tallow-theme",
+  "displayName": "Tallow",
   "description": "A minimal, warm, distraction-free theme. Two accents: faded italic comments and muted slate strings. Everything else is plain.",
   "version": "0.0.1",
-  "publisher": "quiet",
+  "publisher": "tallow",
   "engines": {
     "vscode": "^1.75.0"
   },
@@ -13,14 +13,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Quiet Dark",
+        "label": "Tallow Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/quiet-dark.json"
+        "path": "./themes/tallow-dark.json"
       },
       {
-        "label": "Quiet Light",
+        "label": "Tallow Light",
         "uiTheme": "vs",
-        "path": "./themes/quiet-light.json"
+        "path": "./themes/tallow-light.json"
       }
     ]
   }
