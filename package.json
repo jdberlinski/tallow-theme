@@ -1,0 +1,27 @@
+{
+  "name": "quiet-theme",
+  "displayName": "Quiet",
+  "description": "A minimal, warm, distraction-free theme. Two accents: faded italic comments and muted slate strings. Everything else is plain.",
+  "version": "0.0.1",
+  "publisher": "quiet",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Quiet Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quiet-dark.json"
+      },
+      {
+        "label": "Quiet Light",
+        "uiTheme": "vs",
+        "path": "./themes/quiet-light.json"
+      }
+    ]
+  }
+}
