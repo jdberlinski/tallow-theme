@@ -4,7 +4,7 @@
   "activationEvents": ["onStartupFinished"],
   "displayName": "Tallow",
   "description": "A minimal, warm, distraction-free theme with dark and light variants.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "jdberlinski",
   "license": "MIT",
   "repository": {
