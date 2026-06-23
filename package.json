@@ -1,5 +1,7 @@
 {
   "name": "tallow-theme",
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
   "displayName": "Tallow",
   "description": "A minimal, warm, distraction-free theme with dark and light variants.",
   "version": "0.0.1",
@@ -29,6 +31,16 @@
     "Themes"
   ],
   "contributes": {
+    "configuration": {
+      "title": "Tallow",
+      "properties": {
+        "tallow.italicComments": {
+          "type": "boolean",
+          "default": true,
+          "description": "Use italic font style for comments."
+        }
+      }
+    },
     "themes": [
       {
         "label": "Tallow Dark",
