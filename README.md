@@ -1,12 +1,12 @@
 # Tallow
 
-A minimal, warm, distraction-free VS Code theme. Available in dark and light variants.
+A minimal, distraction-free VS Code theme. Available in dark and light variants.
 
-Inspired by [Min](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.min-theme), [nofrils](https://github.com/robertmeta/nofrils) (vim), and [Gruber Darker](https://github.com/rexim/gruber-darker-theme) (emacs).
+Inspired by [Min](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.min-theme), [nofrils](https://github.com/robertmeta/nofrils), and [Gruber Darker](https://github.com/rexim/gruber-darker-theme).
 
 ## Design philosophy
 
-Most themes use color to label every syntactic category — keywords, types, functions, variables, strings, numbers. Tallow uses it for three:
+Color is used in only three ways:
 
 | Token | Treatment |
 |---|---|
@@ -14,9 +14,9 @@ Most themes use color to label every syntactic category — keywords, types, fun
 | Strings | Muted slate blue |
 | Numbers & language constants (`true`, `false`, `null`, `NA`, `Inf`, …) | Muted warm amber |
 
-Everything else — functions, types, variables, operators, punctuation — is plain foreground. Structure is communicated by your font and indentation, not color.
+Everything else is plain foreground.
 
-Keywords (`if`, `function`, `const`, …) are **bold** but the same color as surrounding text, giving them weight without adding noise.
+Keywords (`if`, `function`, `const`, …) are **bold**.
 
 ## Palette
 
