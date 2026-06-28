@@ -16,7 +16,9 @@ Color is used in only three ways:
 
 Everything else is plain foreground.
 
-Keywords (`if`, `function`, `const`, …) are **bold**.
+Keywords (`if`, `function`, `const`, …) are **bold**. By default, operators (such as `<-` in R) are not bolded, but this can be change in the settings.
+
+Comments are _italic_, which can be disabled in the settings.
 
 ## Palette
 
