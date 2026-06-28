@@ -38,6 +38,11 @@
           "type": "boolean",
           "default": true,
           "description": "Use italic font style for comments."
+        },
+        "tallow.boldOperators": {
+          "type": "boolean",
+          "default": false,
+          "description": "Use bold font style for operators (e.g. <-, |>)."
         }
       }
     },
